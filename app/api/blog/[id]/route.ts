@@ -168,4 +168,3 @@ export const DELETE = async (req: Request) => {
     await prisma.$disconnect();
   }
 };
-
